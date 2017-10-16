@@ -11,7 +11,9 @@ public class Main {
 	b=(str.charAt(1)-'0'+7)%10;
 	c=(str.charAt(2)-'0'+7)%10;
 	d=(str.charAt(3)-'0'+7)%10;
-	//1-3 2-4
+	
+	//System.out.println(Integer.toString(c)+Integer.toString(d)+Integer.toString(a)+Integer.toString(b)) 字串式寫法
+	    
 	System.out.printf("%d%d%d%d",c,d,a,b);
     }
 }
